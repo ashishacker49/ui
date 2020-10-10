@@ -1,0 +1,202 @@
+*{
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding:0;
+	overflow-x: hidden;
+}
+input{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ 
+.mainarea{
+	position: relative;
+	background: #f3f5f9;
+	width: 100vw;
+	height: 100vh;
+}
+.header{
+   
+	background: #FFFFFF;
+	 padding-bottom: 30px;
+	 padding-top: 25px;
+ 
+}
+.navbar{
+	background: #182642;
+	color: white;
+	height: 100px;
+ }
+
+.menu2{
+	  
+	float: right;
+	 padding-right: 20px;
+
+}
+.menu1{
+	  padding-right: 20px;
+	float: left;
+
+}
+.navform{
+	padding-left: 600px;
+	 
+}
+.navinput{
+	margin-left: 600px;
+}
+.navhead{
+	margin-top: 0px;
+}
+.leftsidebar{
+ 	position: absolute;
+ 	width: 20%;
+ 	height: 60%;
+ 	background: #FFFFFF;
+ 	display: block;
+left: 10px;
+overflow-x: hidden;
+ 	
+
+ }
+ .content{
+ 	position: absolute;
+ 	left: 15%;
+ 	width: 80%;
+ 	height: 100%;
+ 	background: #F1F1F1;
+ 	display: block;
+ }
+ .ads{
+ 	left: 75%;
+ 	background: #F8F8F8;
+ 	position: absolute;
+ 	height: 100%;
+ 	width: 20%;
+ 	border: solid 1px;
+ }
+ li{
+ 	padding: 20px;
+ }
+ .image{
+ 	float: right;
+ 	height: 500px;
+ }
+ .feedback{
+ 	left: 94%;
+ 	background: #F8F8F8;
+ 	position: absolute;
+ 	height: 100%;
+ 	width: 5%;
+ 	padding-left:20px;
+ 	padding-top: 200px;
+ }
+ .menu1 a:link, a:visited {
+  background-color: #F8F8F8;
+  color: black;
+  
+  text-align: center;
+  text-decoration: none;
+   
+}
+
+.menu1 a:hover, a:active {
+   color: #F38F82;
+  text-decoration: underline;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab span {
+  background-color: inherit;
+  float: left;
+  border: none;
+   padding: 10px;
+   
+  
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+   padding: 10px;
+     color: #4da6ff;
+
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+   .sortby   {
+ 	float: left;
+ }
+  .emailme{
+  	width: 300px;
+  	background-color: #F1F1F1;
+  	border: solid  #09A0DB 3px;
+  	padding: 10px;
+  	color: #09A0DB;
+  }
+  .section{
+  	background: #F1F1F1;
+  }
+  .dropdown-btn {
+   
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+.dropdown-container {
+  display: none;
+  background-color: white;
+  padding-left: 8px;
+}
+@media screen and (max-height: 450px) {
+  .leftsidebar {padding-top: 15px;}
+  .leftsidebar a {font-size: 18px;}
+}
+.FindJobs{
+	background: #09A0DB;
+	color: white;
+	border: 1px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.icon {
+  
+ 
+  min-width: 50px;
+  text-align: center;
+}
